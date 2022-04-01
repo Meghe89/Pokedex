@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- style custom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pokedex</h1>
+
+    <div class="pokedex-container">
+        <div class="input-container">
+            <input type="text" id="p-name" name="p-name" placeholder="Search Pokemon here"">
+        </div>
+        <div class="img-container">
+            <img id="pokemon-img"  alt="">
+            <p class="pokemon-number">N° <span id="poke-num"></span></p>
+        </div>
+        <div class="type-container">
+            <div class="type1">
+                <p id="poke-name"></p>
+            </div>
+            <div class="type2">
+                <p id="poke-type1"></p>
+            </div>
+        </div>
+        <div class="details-container">
+            <div class="hp-container">
+                <span>hp</span>
+                <span id="poke-hp"></span>
+            </div>
+            <div class="attack-container">
+                <span>attack</span>
+                <span id="poke-attack"></span>
+            </div>
+            <div class="defense-container">
+                <span>defense</span>
+                <span id="poke-defense"></span>
+            </div>
+            <div class="special-attack-container">
+                <span>special-attack</span>
+                <span id="poke-special-attack"></span>
+            </div>
+            <div class="special-defense-container">
+                <span>special-defense</span>
+                <span id="poke-special-defense"></span>
+            </div>
+            <div class="speed-container">
+                <span>speed</span>
+                <span id="poke-speed"></span>
+            </div>
+            <div class="weight-container">
+                <span>weight</span>
+                <span id="poke-weight"></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- js custom -->
+    <script src="./script.js"></script>
+</body>
+</html>

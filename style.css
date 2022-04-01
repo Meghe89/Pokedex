@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Happy Monkey', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.pokedex-container{
+    border: 1px solid #000000;
+    height: 500px;
+    width: 350px;
+    margin-top: 10px;
+    box-shadow: 6px 10px 4px 5px rgba(0,0,0,0.88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.input-container {
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* .input-container ::placeholder{
+    padding-left: 10px;
+} */
+.input-container input {
+    width: 90%;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.img-container{    
+    margin-top: 10px;
+
+}
+.img-container img{
+    border-radius: 100%;
+    border: 1px solid #000000;
+}
+.pokemon-number{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.type-container{
+    
+    width: 60%;
+}
+.type1,
+.type2{
+    border: 1px solid #000000;
+    margin-bottom: 4px;
+}
+.type1 p,
+.type2 p{
+    padding: 10px;
+    text-align: center;
+}
+
+.details-container{
+   
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hp-container,
+.attack-container,
+.defense-container,
+.special-attack-container,
+.special-defense-container,
+.speed-container,
+.weight-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px;
+}
