@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 body{
     display: flex;
@@ -17,8 +17,9 @@ h1{
     font-size: 50px;
 }
 
-.pokedex-container{
+.pokedex-container {
     border: 1px solid #000000;
+    background-color: #c21010;
     height: 500px;
     width: 350px;
     margin-top: 10px;
@@ -44,18 +45,21 @@ h1{
     width: 90%;
     border-radius: 4px;
     padding-left: 10px;
+    background-color: #f5f5f5;
 }
 .img-container{    
     margin-top: 10px;
 
 }
-.img-container img{
+.img-container img {
     border-radius: 100%;
+    background-color: #f5f5f5;
     border: 1px solid #000000;
 }
 .pokemon-number{
     margin: 10px 0;
     text-align: center;
+    color: #f5f5f5;
 }
 
 .type-container{
@@ -67,12 +71,11 @@ h1{
     border: 1px solid #000000;
     margin-bottom: 4px;
 }
-.type1 p,
-.type2 p{
+.type1 p, .type2 p {
     padding: 10px;
     text-align: center;
+    background-color: #f5f5f5;
 }
-
 .details-container{
    
     width: 100%;
@@ -91,4 +94,5 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 1px 10px;
+    color: #f5f5f5;
 }
